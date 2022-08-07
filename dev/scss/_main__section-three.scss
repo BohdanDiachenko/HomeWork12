@@ -1,10 +1,9 @@
-.section__three{
+.section__three {
     background-color: #fff;
     max-width: 600px;
     margin: 0 auto;
     padding-bottom: 15px;
-    
-    h3{
+    h3 {
         margin: 0 0 5px;
         padding: 0;
         color: #414042;
@@ -17,7 +16,7 @@
         overflow: hidden;
         counter-reset: items;
     }
-    li{
+    li {
         width: calc(100%/2);
         float: left;
         padding: 15px 15px;
@@ -35,13 +34,13 @@
             color: #2891B2;
         } 
     }
-    .cards__content{
+    .cards__content {
         background-color: #1085A9;
         padding: 30px;
         min-height: 268px;
         font-size: 16px; 
     }
-    .cards__content-icons{  
+    .cards__content-icons {  
         @include circle(60px);
         background-color: #fff;
         font-size: 30px;
@@ -49,13 +48,12 @@
         line-height: 65px;
         text-decoration: none;
         margin-bottom: 22px;
-      
         span{
             font-weight: 600;
             line-height: 20px;
         }
     }
-    h4{
+    h4  {
         margin: 0 ;
         padding: 0;
         font-weight: 500;

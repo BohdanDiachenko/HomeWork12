@@ -6,8 +6,7 @@
     background-color: #87C5E0;
     max-width: 600px;
     margin: 0 auto;
-
-    h5{
+    h5 {
         margin: 0;
         font-size: 16px;
         line-height: 24px;
@@ -15,10 +14,9 @@
         margin-bottom: 15px;
         text-transform: uppercase;
     }
-    a{
+    a {
         color: #231F20;
     }
-
 }
 .info__content {
     overflow: hidden;
@@ -26,7 +24,6 @@
     & > li{
         width: 50%;
         float: left;
-
         li:not(:last-child){
             margin-bottom: 8px;
         }
