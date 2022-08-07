@@ -1,0 +1,7 @@
+@mixin circle($s){
+    display: block;
+    width: $s;
+    height: $s;
+    border-radius: 50%;
+    overflow: hidden;
+}

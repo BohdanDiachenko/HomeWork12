@@ -1,0 +1,90 @@
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-bold-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'poppins';
+    src: url('../fonts/poppins-regular-webfont.woff2') format('woff2'),
+         url('../fonts/poppins-regular-webfont.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'bebas';
+    src: url('../fonts/bebasneue_bold-webfont.woff2') format('woff2'),
+         url('../fonts/bebasneue_bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-SemiBold.woff') format('woff'),
+         url('../fonts/Montserrat-SemiBold.woff2') format('woff2');
+    font-weight: 600;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat-Medium.woff') format('woff'),
+         url('../fonts/Montserrat-Medium.woff2') format('woff2');
+    font-weight: 500;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Montserrat';
+    src: url('../fonts/Montserrat_bold-webfont.woff2') format('woff2'),
+         url('../fonts/Montserrat_bold-webfont.woff') format('woff');
+    font-weight: 700;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'icomoon';
+    src:  url('../fonts/icomoon.eot?l05uas');
+    src:  url('../fonts/icomoon.eot?l05uas#iefix') format('embedded-opentype'),
+      url('../fonts/icomoon.ttf?l05uas') format('truetype'),
+      url('../fonts/icomoon.woff?l05uas') format('woff'),
+      url('../fonts/icomoon.svg?l05uas#icomoon') format('svg');
+    font-weight: normal;
+    font-style: normal;
+    font-display: block;
+  }
+  
+  [class^="icon-"], [class*=" icon-"] {
+    font-family: 'icomoon' !important;
+    speak: never;
+    font-style: normal;
+    font-weight: normal;
+    font-variant: normal;
+    text-transform: none;
+    line-height: 1;
+  
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+  
+  .icon-arrow::after {
+    content: "\e904";
+    color: #fff;
+  }
+  .icon-boock:before {
+    content: "\e905";
+    color: #1085a9;
+  }
+  .icon-Chat:before {
+    content: "\e906";
+    color: #1085a9;
+  }
+  .icon-Payment:before {
+    content: "\e907";
+    color: #1085a9;
+  }
+  .icon-Submit:before {
+    content: "\e908";
+    color: #1085a9;
+  }
+
+  
+

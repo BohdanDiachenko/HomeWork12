@@ -1,0 +1,26 @@
+.saction__one{
+    background-color: #14475F;
+    max-width: 600px;
+    margin: 0 auto;
+    min-height: 87px;
+    font-weight: 700;  
+        &-content{
+            padding: 0 5px;
+            height: 100%;
+            width: 100%;
+            text-align: center;
+        }
+        &::before{
+            content: "";
+            height: 100%;
+            display: inline-block;
+            vertical-align: middle;
+        }
+        p{
+            font-size: 22px;
+            line-height: 27px;
+            margin: 0;
+            display: inline-block;
+            letter-spacing: 1px; 
+        }
+}
