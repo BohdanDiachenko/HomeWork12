@@ -6,8 +6,16 @@
     padding: 10px; 
     font-size: 13px;
     line-height: 20px;
+    transition: .7s;
     a{
         color: #14475F;
+        transition: .5s;
         
+    }
+    &:hover{
+        background-color: #d8effa;
+    }
+    &:hover a{
+        color: #f75959;
     }
 }
